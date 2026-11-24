@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,TrainTime(s)
+Logistic Regression,0.9091,0.9092,0.9091,0.9091,11.9
+LSTM,0.8875,0.8875,0.8875,0.8875,254.0
+Vanilla Transformer,0.8611,0.8611,0.8611,0.8611,282.3
+BERT,0.897,0.8974,0.897,0.897,3119.6
