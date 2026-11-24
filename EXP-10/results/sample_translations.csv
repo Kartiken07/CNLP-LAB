@@ -1,0 +1,11 @@
+source,reference,model_output,model
+We are public servants.,আমি চৰকাৰৰ দ্বাৰা নিযুক্ত কৰ্মচৰী।,আমি ৰাজহুৱা সেৱক।,Pretrained (before fine-tuning)
+Log out %s of this session to log in as a different user,বেলেগ ব্যৱহাৰকৰ্তা হিচাপে প্ৰৱেশ কৰিবলৈ %s ক বৰ্তমান অধিবেছনৰ পৰা প্ৰস্থান কৰা হ'ব ।,অন্য ব্যৱহাৰকৰ্তাৰূপে লগ ইন কৰিবলৈ এই অধিৱেশনৰ %s ৰ লগ আউট কৰক,Pretrained (before fine-tuning)
+"Rather than say what might be discouraging, we could strive to be encouraging.",নিৰন্তৰে ইজনে সিজনক সহায় কৰক,[সম্পাদনা কৰক],Pretrained (before fine-tuning)
+In my &Start Menu Programs folder,মোৰ আৰম্ভণি মেনু প্ৰগ্ৰামসমূহ ফোল্ডাৰত (&S),মোৰ &Start Menu Programs ফোল্ডাৰত,Pretrained (before fine-tuning)
+"Expected , or ) after variable name in variable reference but found %1$S.","চলকৰ প্ৰসংগত চলক নামৰ পিছত ',' অথবা ')' প্ৰত্যাশিত কিন্তু প্ৰাপ্ত হল '%1$S'।","প্ৰত্যাশিত , বা ) ভৰিবৰ নামৰ পিছত ভৰিবৰ উল্লেখত কিন্তু %1$S পোৱা যায় ।",Pretrained (before fine-tuning)
+We are public servants.,আমি চৰকাৰৰ দ্বাৰা নিযুক্ত কৰ্মচৰী।,আমি ৰাজহুৱা কৰ্মচাৰী।,Fine-tuned
+Log out %s of this session to log in as a different user,বেলেগ ব্যৱহাৰকৰ্তা হিচাপে প্ৰৱেশ কৰিবলৈ %s ক বৰ্তমান অধিবেছনৰ পৰা প্ৰস্থান কৰা হ'ব ।,এটা ভিন্ন ব্যৱহাৰকৰ্তাৰূপে প্ৰৱেশ কৰিবলৈ এই অধিবেশনৰ %s প্ৰস্থান কৰক,Fine-tuned
+"Rather than say what might be discouraging, we could strive to be encouraging.",নিৰন্তৰে ইজনে সিজনক সহায় কৰক,( ১ তীমথিয় ৩ :⁠ ১ - ৩) আমি যিহোৱাৰ সাক্ষী হোৱা উচিত ।,Fine-tuned
+In my &Start Menu Programs folder,মোৰ আৰম্ভণি মেনু প্ৰগ্ৰামসমূহ ফোল্ডাৰত (&S),মোৰ &Start মেনু প্ৰোগ্ৰাম ফোল্ডাৰত,Fine-tuned
+"Expected , or ) after variable name in variable reference but found %1$S.","চলকৰ প্ৰসংগত চলক নামৰ পিছত ',' অথবা ')' প্ৰত্যাশিত কিন্তু প্ৰাপ্ত হল '%1$S'।","পৰিবৰ্তন উল্লেখত পৰিবৰ্তনৰ নামৰ পিছত প্ৰত্যাশিত , অথবা ) কিন্তু পোৱা গ'ল %1$S।",Fine-tuned

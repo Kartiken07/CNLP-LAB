@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News Classifier</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="card">
+  <h1>News Article Classifier</h1>
+  <p class="sub">Paste a headline or article body and get its category: World, Sports, Business or Sci/Tech.</p>
+  <label for="text" class="sr-only">Article text</label>
+  <textarea id="text" rows="8" placeholder="e.g. Oil prices fell sharply on Tuesday as investors weighed new supply data..."></textarea>
+  <div class="row">
+    <button id="classify">Classify</button>
+    <button id="clear" class="ghost">Clear</button>
+    <span class="count" id="count">0 characters</span>
+  </div>
+  <div id="error" class="error" role="alert" hidden></div>
+  <section id="result" hidden aria-live="polite">
+    <div class="result-head">
+      <span class="label">Predicted category</span>
+      <span id="category" class="badge"></span>
+    </div>
+    <div class="conf">Confidence: <strong id="confidence"></strong></div>
+    <div id="bars"></div>
+  </section>
+  <footer>
+    Model: <strong>{{ info.name }}</strong> &middot; Features: {{ info.features }} &middot;
+    Test accuracy: {{ '%.2f'|format(info.test_accuracy * 100) }}% &middot; Weighted F1: {{ '%.3f'|format(info.f1) }}
+    &middot; Trained on AG News ({{ '{:,}'.format(info.train_size) }} articles)
+  </footer>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

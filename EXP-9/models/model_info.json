@@ -1,0 +1,18 @@
+{
+  "name": "LinearSVC (calibrated)",
+  "key": "linear_svc",
+  "features": "TF-IDF",
+  "best_params": {
+    "C": 0.3
+  },
+  "test_accuracy": 0.9235526315789474,
+  "f1": 0.9233911447088693,
+  "train_size": 120000,
+  "classes": [
+    "Business",
+    "Sci/Tech",
+    "Sports",
+    "World"
+  ],
+  "calibrated": true
+}

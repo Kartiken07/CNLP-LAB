@@ -1,0 +1,32 @@
+__pycache__/
+.ipynb_checkpoints/
+data/
+nllb-en-as/
+*.safetensors
+*.bin
+*.pt
+*.zip
+.env
+
+# Python
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# ML / experiment artifacts
+checkpoints/
+wandb/
+runs/
+outputs/
+
+# Secrets
+.env.*
+!.env.example

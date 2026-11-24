@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this project or build upon it, please cite it using the metadata below."
+
+title: "AG News Classification — End-to-End NLP System"
+type: software
+
+authors:
+  - family-names: "Sharma"
+    given-names: "Kartiken"
+
+  - family-names: "Siddqui"
+    given-names: "Huwaid"
+
+  - family-names: "Chanana"
+    given-names: "Naman"
+
+  - family-names: "Yadav"
+    given-names: "Mohit Kumar"
+
+  - family-names: "Garg"
+    given-names: "Ishika"
+
+abstract: >-
+  An end-to-end natural language processing system for classifying AG News
+  articles into World, Sports, Business, and Sci/Tech categories. The project
+  covers exploratory data analysis, text preprocessing, Bag-of-Words and
+  TF-IDF feature extraction, classical machine-learning model comparison,
+  calibrated LinearSVC inference, and a Flask web application.
+
+repository-code: "https://github.com/Kartiken07/NLP-PROJECT-1"
+url: "https://github.com/Kartiken07/NLP-PROJECT-1"
+
+license: MIT
+
+keywords:
+  - natural-language-processing
+  - text-classification
+  - news-classification
+  - ag-news
+  - machine-learning
+  - tf-idf
+  - linear-svc
+  - scikit-learn
+  - flask

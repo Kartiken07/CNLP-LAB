@@ -1,0 +1,3 @@
+model,direction,test_pairs,BLEU,chrF
+Pretrained (before fine-tuning),en-as,1000,7.45,31.82
+Fine-tuned,en-as,1000,9.8,35.29
